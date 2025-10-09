@@ -927,6 +927,9 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2024 DermaNova. Todos los derechos reservados.</p>
+            <p className="mt-2 text-sm">
+              Desarrollado por <a href="https://arguellesdev.com" target="_blank" rel="noopener noreferrer" className="text-[#D4AF37] hover:text-[#B8860B] transition-colors">arguellesdev.com</a> - 2025
+            </p>
           </div>
         </div>
       </footer>
