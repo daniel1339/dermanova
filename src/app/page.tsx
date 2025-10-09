@@ -545,7 +545,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
@@ -578,7 +578,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
@@ -611,7 +611,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
@@ -644,7 +644,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
@@ -677,7 +677,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
@@ -710,7 +710,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 mb-6 italic">
-                "Próximamente: testimonio real de nuestros clientes satisfechos"
+                &quot;Próximamente: testimonio real de nuestros clientes satisfechos&quot;
               </p>
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-gradient-to-r from-[#D4AF37] to-[#B8860B] rounded-full flex items-center justify-center mr-4">
