@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --gold: #D4AF37;
+  --gold-light: #F4E4BC;
+  --gold-dark: #B8860B;
+  --gold-bg-light: #F7E7B3;
+  --gold-bg-medium: #E6D4A3;
+  --gold-bg-dark: #D4C493;
+  --warm-beige: #F5E6D3;
+  --warm-cream: #F0DCC4;
+  --warm-brown: #8B4513;
+  --warm-dark: #5D2E0A;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-gold-bg-light: var(--gold-bg-light);
+  --color-gold-bg-medium: var(--gold-bg-medium);
+  --color-gold-bg-dark: var(--gold-bg-dark);
+  --color-warm-beige: var(--warm-beige);
+  --color-warm-cream: var(--warm-cream);
+  --color-warm-brown: var(--warm-brown);
+  --color-warm-dark: var(--warm-dark);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F4E4BC 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gold-border {
+  border-color: #D4AF37;
+}
+
+.gold-bg {
+  background-color: #D4AF37;
+}
+
+.gold-hover:hover {
+  background-color: #B8860B;
+}
+
+.logo-container {
+  background: linear-gradient(135deg, #F7E7B3 0%, #E6D4A3 50%, #D4C493 100%);
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+}
+
+.logo-container-dark {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+  border-radius: 12px;
+  padding: 8px;
+  border: 2px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+}
+
+.gold-bg-gradient {
+  background: linear-gradient(135deg, #F7E7B3 0%, #F0DCC4 50%, #E6D4A3 100%);
+}
+
+.dark-bg-gradient {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+}
+
+.dark-section-bg {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+}
+
+.hexagon-pattern {
+  background-image: 
+    radial-gradient(circle at 50% 50%, #e5ded6 2px, transparent 2px),
+    radial-gradient(circle at 25% 25%, #e5ded6 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, #e5ded6 1px, transparent 1px);
+  background-size: 60px 60px, 30px 30px, 30px 30px;
+  background-position: 0 0, 15px 15px, 45px 45px;
+}
+
+.hexagon-pattern-subtle {
+  background-image: 
+    radial-gradient(circle at 50% 50%, rgba(229, 222, 214, 0.3) 2px, transparent 2px),
+    radial-gradient(circle at 25% 25%, rgba(229, 222, 214, 0.2) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(229, 222, 214, 0.2) 1px, transparent 1px);
+  background-size: 60px 60px, 30px 30px, 30px 30px;
+  background-position: 0 0, 15px 15px, 45px 45px;
+}
+
+.elegant-pattern {
+  background-image: 
+    linear-gradient(90deg, rgba(212, 175, 55, 0.03) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(212, 175, 55, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.luxury-pattern {
+  background-image: 
+    radial-gradient(circle at 20% 20%, rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.05) 1px, transparent 1px);
+  background-size: 100px 100px;
+}
+
+.clean-gradient {
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+}
