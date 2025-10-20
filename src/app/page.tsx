@@ -207,7 +207,7 @@ export default function Home() {
                 alt="DermaNova Logo"
                 width={600}
                 height={180}
-                className="h-48 w-auto mx-auto drop-shadow-2xl"
+                className="h-32 sm:h-40 md:h-48 w-auto mx-auto drop-shadow-2xl object-contain"
               />
             </div>
             <p className="text-lg md:text-xl text-[#8A6F44]/80 max-w-3xl mx-auto mb-12" style={{fontFamily: 'Caviar Dreams, sans-serif'}}>
