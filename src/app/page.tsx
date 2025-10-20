@@ -29,7 +29,7 @@ export default function Home() {
                 alt="DermaNova Logo"
                   width={140}
                   height={45}
-                  className="h-14 w-auto drop-shadow-lg"
+                  className="h-12 sm:h-14 w-auto drop-shadow-lg object-contain"
                 />
               </div>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
                         alt="DermaNova Logo"
                         width={100}
                         height={30}
-                        className="h-10 w-auto drop-shadow-lg"
+                        className="h-8 sm:h-10 w-auto drop-shadow-lg object-contain"
                       />
                     </div>
                     <button 
@@ -905,7 +905,7 @@ export default function Home() {
                 alt="DermaNova Logo"
                 width={180}
                 height={60}
-                className="h-16 w-auto mb-6 drop-shadow-lg"
+                className="h-12 sm:h-16 w-auto mb-6 drop-shadow-lg object-contain"
               />
               <p className="text-[#8A6F44] mb-4" style={{fontFamily: 'Caviar Dreams, sans-serif'}}>
                 Centro especializado en tratamientos estéticos y depilación láser. 
